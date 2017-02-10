@@ -1,0 +1,1 @@
+Springmvc + mybatis +cxf +RESTful to achieve a simple project, as well as physical paging
