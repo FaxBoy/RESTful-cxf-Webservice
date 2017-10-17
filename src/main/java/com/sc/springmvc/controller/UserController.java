@@ -32,6 +32,7 @@ public class UserController {
 	public JSONObject toIndex(){
 		JSONObject json = new JSONObject();
 		Map params = new HashMap<>();
+		
 		params.put("s", "s");
 		List<?> list=this.userService.selectPage(params, 2, 10);
 		PageList pagelist=(PageList)list;
